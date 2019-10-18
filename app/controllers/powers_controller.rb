@@ -1,5 +1,5 @@
 class PowersController < ApplicationController
-  def index
-    @powers = Power.all
+  def show
+    @power = Power.find(params[:id])
   end
 end
