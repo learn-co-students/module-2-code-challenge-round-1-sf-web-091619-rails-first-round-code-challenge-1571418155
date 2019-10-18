@@ -1,0 +1,5 @@
+<% @heroines.each do |heroine|%>
+<%=Name: %><%= heroine.name%>
+<%= Super Name: %><%= heroine.super_name%>
+<%= Power: %><%= link_to heroine.power_id, @power %>
+<%end%>
