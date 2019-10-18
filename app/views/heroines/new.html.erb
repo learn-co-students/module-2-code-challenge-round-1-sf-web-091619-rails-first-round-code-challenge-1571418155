@@ -1,0 +1,11 @@
+<%= form_for(@heroine) do |h| %>
+    <%= h.label :"Name" %>
+    <%= h.text_area :name %>
+
+    <%= h.label :"Super Name" %>
+    <%= h.text_area :super_name %>
+
+    <%= h.collection_select :power_id, Power.all, :id, :name %> <!- NOT WORKING??!?>
+                                            <!- PASSING NEW HEROINE ID INSTEAD OF POWER ID!!>
+    <%= h.submit %>
+<% end %>

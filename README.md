@@ -11,7 +11,7 @@ It's time to put our Rails know-how to the test. Today, we are asked to build an
 + Validations
 
 ## Setup
-
+ 
 Before you begin, fork and clone this repo, run `bundle install` and `rake db:migrate` to get started.
 
 ## The Domain
