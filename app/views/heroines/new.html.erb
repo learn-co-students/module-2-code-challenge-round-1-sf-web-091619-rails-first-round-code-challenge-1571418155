@@ -1,0 +1,10 @@
+<%= form_for @heroine %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.label :super_name %>
+  <%= f.text_field :super_name %>
+  <%= f.collection_select :power, Power.all, :id, :name
+  <%= f.submit "Create" %>
+<% end %>
+
+
